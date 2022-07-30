@@ -10,26 +10,28 @@ Final Project with Employee Performance Analysis, Build model for Industrializat
 ```shell
     env use python3.10
 ```
-
-## Clone the Repository
-
-- 
-
+## Install the dependencies 
 ```shell
-$ run jupyter notebook 
+    pip install Requirements.txt
 ```
 
-- Add dependencies
+## Clone the Repository using command line
+```shell
+    git clone git@github.com:Anand-puthiyapurayil/AI_Methodology.git
+```
+## Initial Stage run jupyter notebook
+```shell
+$ run jupyter notebooks
+```
+
 
 ```shell
-$ install pyod library
-$ install 
-
-
-- Update dependencies
+$ run main.py
+```
+## MLFLOW 
 
 ```shell
-$  update
+$  Run the MLFLOW NOTEBOOK
 ```
 
 - Deactivate virtual environment
