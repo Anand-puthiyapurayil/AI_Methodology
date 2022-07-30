@@ -1,6 +1,9 @@
 # AI_Methodology
 Final Project with Employee Performance Analysis, Build model for Industrialization 
 
+## either can download it from kaggle but or can retrieve from the repository (Data>>External)
+https://www.kaggle.com/datasets/eshwarganta/employee-performance-analysis-inx-future-inc
+
  # Getting started
 
 ## Setup up virtual environment
