@@ -1,0 +1,4 @@
+artifact_location: file:///C:/Users/Anand/AI_Methodology/AI_METHODOLY/MLFLOW/mlruns/1
+experiment_id: '1'
+lifecycle_stage: active
+name: prediction_with_random_forest
