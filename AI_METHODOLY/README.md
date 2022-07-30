@@ -1,7 +1,25 @@
-AI Methodology
+# AI Methodology
+## Employee Perfomence Analysis
 ==============================
+This is Classification Problem <br />
+The following insights are done in this project. 
+1.	Department wise performances 
+2.	Top 3 Important Factors effecting employee performance 
+3.	A trained model which can predict the employee performance based on factors as inputs. This will be used to hire employees. 
+4.	Recommendations to improve the employee performance based on insights from analysis. 
+The entire project is done in JUPITER notebook by using Python language. 
 
-In this project, we try to figure out which
+## Anand Puthiyapurayil
+   -EDA & Modelling
+   -Created Datapipelines
+   -Integrated MLFLOW
+## Anthony Al Alam
+   -REPORT
+   -SHAP Integration
+   -
+
+
+
 
 Project Organization
 ------------
@@ -10,44 +28,37 @@ Project Organization
     ├── Makefile           <- Makefile with commands like `make data` or `make train`
     ├── README.md          <- The top-level README for developers using this project.
     ├── data
-    │   ├── external       <- Data from third party sources.
-    │   ├── interim        <- Intermediate data that has been transformed.
+    │   ├── external       <- Data from third party sources
     │   ├── processed      <- The final, canonical data sets for modeling.
-    │   └── raw            <- The original, immutable data dump.
+    │   └── Prediction     <- The original, immutable data dump.
     │
-    ├── docs               <- A default Sphinx project; see sphinx-doc.org for details
     │
-    ├── models             <- Trained and serialized models, model predictions, or model summaries
+    ├── models             <- Trained and serialized models, model predictions, or model summaries saved using Joblib
+    |
+    ├── MLFLOW             <- Model trained with Mlflow and predicted,created a pipelines for logging metrics 
     │
-    ├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
-    │                         the creator's initials, and a short `-` delimited description, e.g.
-    │                         `1.0-jqp-initial-data-exploration`.
+    ├── notebooks          <- • Employee_perfomance_analysis_COMPLETE_EDA&CLASSIFICATION
+    │                         • Creating_data_pipeline_for_preprocessing
+    │                         • Final Notebook
     │
-    ├── references         <- Data dictionaries, manuals, and all other explanatory materials.
     │
-    ├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
+    ├── reports            <- Generated analysis as PDF.
     │   └── figures        <- Generated graphics and figures to be used in reporting
     │
     ├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
     │                         generated with `pip freeze > requirements.txt`
     │
-    ├── setup.py           <- makes project pip installable (pip install -e .) so src can be imported
+    ├── SHAP               <- #TODO
     ├── src                <- Source code for use in this project.
-    │   ├── __init__.py    <- Makes src a Python module
+    │   |
     │   │
-    │   ├── data           <- Scripts to download or generate data
-    │   │   └── make_dataset.py
-    │   │
-    │   ├── features       <- Scripts to turn raw data into features for modeling
-    │   │   └── build_features.py
-    │   │
-    │   ├── models         <- Scripts to train models and then use trained models to make
+    │   ├── app            <- Scripts to train models and then use trained models to make
     │   │   │                 predictions
-    │   │   ├── predict_model.py
+    │   │   ├── preprocess.py
+    |   |   ├── inference.py
     │   │   └── train_model.py
     │   │
-    │   └── visualization  <- Scripts to create exploratory and results oriented visualizations
-    │       └── visualize.py
+    │   
     │
     └── tox.ini            <- tox file with settings for running tox; see tox.readthedocs.io
 
