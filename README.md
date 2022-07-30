@@ -11,9 +11,9 @@ Final Project with Employee Performance Analysis, Build model for Industrializat
     env use python3.10
 ```
 
-## Useful commands
+## Clone the Repository
 
-- Run command in the virtual environment
+- 
 
 ```shell
 $ run jupyter notebook 
