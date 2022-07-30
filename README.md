@@ -8,7 +8,7 @@ Final Project with Employee Performance Analysis, Build model for Industrializat
 1. Create a virtual with *Python 3.10*
 
 ```shell
-    env use python3.10
+   create --name "envname" use python3.10
 ```
 ## Install the dependencies 
 ```shell
