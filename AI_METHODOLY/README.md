@@ -1,6 +1,7 @@
 # AI Methodology
 ## Employee Perfomence Analysis
 ==============================
+
 This is Classification Problem <br />
 The following insights are done in this project. 
 1.	Department wise performances 
@@ -8,6 +9,9 @@ The following insights are done in this project.
 3.	A trained model which can predict the employee performance based on factors as inputs. This will be used to hire employees. 
 4.	Recommendations to improve the employee performance based on insights from analysis. 
 The entire project is done in JUPITER notebook by using Python language. 
+
+## Please find the detailed the REPORT
+AI_METHODOLY/reports/PROJECT SUMMARY_ANAND_P.pdf
 
 ## Anand Puthiyapurayil
    -EDA & Modelling
