@@ -58,7 +58,7 @@ def get_one_hot_encoder(dataframe: pd.DataFrame, MODEL_DIR : Path) -> OneHotEnco
 def encode_categorical_data(dataframe: pd.DataFrame, one_hot_encoder: OneHotEncoder) -> pd.DataFrame:
     categorical_columns = get_categorical_column_names(dataframe)
     encoded_categorical_data_matrix = one_hot_encoder.transform(dataframe[categorical_columns])
-    encoded_data_columns = one_hot_encoder.get_feature_names(categorical_columns)
+    encoded_data_columns = one_hot_encoder.get_feature_names_out(categorical_columns)
     encoded_categorical_data_df = pd.DataFrame.sparse.from_spmatrix(data=encoded_categorical_data_matrix,
                                                                     columns=encoded_data_columns, index=dataframe.index)
     encoded_df = dataframe.copy().drop(categorical_columns, axis=1).join(encoded_categorical_data_df)
