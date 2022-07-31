@@ -13,10 +13,10 @@ The entire project is done in JUPITER notebook by using Python language.
    -EDA & Modelling
    -Created Datapipelines
    -Integrated MLFLOW
+   -Report
+   
 ## Anthony Al Alam
-   -REPORT
    -SHAP Integration
-   -
 
 
 
