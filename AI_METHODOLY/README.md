@@ -11,6 +11,7 @@ The following insights are done in this project.
 The entire project is done in JUPITER notebook by using Python language. 
 
 ## Please find the detailed the REPORT
+AI_METHODOLY/reports/PROJECT SUMMARY_ANAND_P.pdf
 
 ## Anand Puthiyapurayil
    -EDA & Modelling
