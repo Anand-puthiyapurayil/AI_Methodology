@@ -52,7 +52,7 @@ Project Organization
     ├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
     │                         generated with `pip freeze > requirements.txt`
     │
-    ├── SHAP               <- #TODO
+    ├── SHAP               <- Explained the model with visualization 
     ├── src                <- Source code for use in this project.
     │   |
     │   │
