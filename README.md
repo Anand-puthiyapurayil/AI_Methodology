@@ -2,6 +2,12 @@
 
 This repository showcases an **end-to-end Machine Learning project** focused on analyzing and predicting **Employee Performance** using various AI and Data Science methodologies. It integrates modern MLOps practices, model interpretability techniques, and comprehensive exploratory data analysis (EDA).
 
+## 🚀 Architecture 
+
+
+
+![Demo](assets/model.png)
+
 ---
 
 ## 🎯 Project Objective
